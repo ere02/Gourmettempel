@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+}
+
+
+h2 {
+    color: antiquewhite;
+
+}
+
+h1 {
+    color: black
+
+}
+
+
+a:hover {
+    color: silver;
+  }
+
+
+.header {
+    background-color: rgb(223, 134, 42);
+    width: 100vw;
+    height: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.iconLiferando {
+    background-color: antiquewhite;
+    margin-left: 16px;
+}
+
+
+.iconFlag {
+    background-color: rgb(223, 134, 42);
+    margin-right: 16px;
+    
+}
+
+
+.iconMenu {
+    background-color: rgb(223, 134, 42);
+    margin-right: 16px;
+    height: 32px;
+    width: 40px;
+    
+}
+
+
+.iconMenu2 {
+    background-color: silver;
+    margin-right: 16px;
+    height: 32px;
+    width: 40px;
+    
+}
+
+
+.actionIcons {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.rightIconBox {
+    padding-right: 16px;
+    margin-right: 16px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.mainPage {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.shoppingBasket {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: silver;
+    height: 300px;
+    width: 30%;
+
+}
+
+
+:hover {
+    pointer-events: auto; 
+
+}
+
+
+.recycleBin {
+    width: 40px;
+    height: 40px;
+    padding-left: 32px;
+    padding-right: 32px;    
+
+}
+
+
+.searchbox {
+    height: 22px;
+
+}
+
+
+.menuContent {
+    width: 70%;
+
+}
+
+
+.menuFeed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(0,0,0.1);
+    padding-top: 60px;
+    background: antiquewhite;
+
+}
+
+
+button {
+    margin-left: 8px !important;
+    font-size: 14px !important;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: silver;
+    border-radius: 8px;
+    border: solid black;
+    width: 88px !important;
+    box-shadow: 0 5px 5px 0 #666;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+
+.headerPicture {
+    min-height: 500px;
+    background-image: url(./img/PizzaHeader.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.imageMenu {
+    width: 800px;
+    height: 600px;
+    border-radius: 5%;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header-logo {
+    width: 180px;
+
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    transition: all 225ms ease-in-out;
+    margin-left: 4px;
+    margin-right: 4px;
+
+}
+
+.header-nav a:hover {
+    color: silver;
+    border-bottom: 4px solid silver;
+    transition: all 225ms ease-in-out;
+
+}
+
+.social {
+    width: 48px;
+    height: 48px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.orange-button {
+    background-color: rgb(250, 187, 120);
+    padding: 12px;
+    border-radius: 12px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    transition: all 225ms ease-in-out;
+}
+
+.orange-button:hover {
+    background-color: rgb(243, 160, 71);
+}
+
+.profile-image {
+    width: 180PX;
+    height: 180px;
+    border-radius: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+    object-fit: cover;
+
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+
+}
+
+.headline {
+    padding-top: 16px;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.text-gray {
+    color: #777777;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.image-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile-info {
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 220px;
+
+}
+
+.three-icons {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+
+.so-funkt-abstand {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.three-steps {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+
+.three-icons-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.bgr1 {
+    background-color: rgb(241, 220, 200);
+
+}
+
+.bgr2 {
+    background-color: rgb(246, 214, 184);
+}
+
+.bgr-lila {
+    background-color: #866797;
+}
+
+.bgr-darkgreen {
+    background-color: darkgreen;
+}
+
+.bgr-darkblue {
+    background-color: rgb(151 151 195);
+}
+
+.footer {
+    min-height: 200px;
+    background-color: #545454;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.footer-container {
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 16px;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-container img {
+    object-fit: contain;
+}
+
+.footer-container a {
+    color: white;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+
+}
+
+.footer-container a:hover {
+    color: silver;
+    border-bottom: 4px solid silver;
+    transition: all 225ms ease-in-out;
+
+}
+
+
+.social {
+    width: 48px;
+    height: 48px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
